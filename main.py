@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/song")
+@app.get("/album")
 def read_item():
-    return {"Song": "Scar Tissue"}
+    return {"Album": "Unlimited Love"}
